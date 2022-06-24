@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:background="@color/base">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/bText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SELL"
+            android:textColor="@color/sell"
+            android:textStyle="bold"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:textSize="16sp"
+            />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:background="@color/base2"
+            android:entries="@array/type"
+            android:textColor="@color/base2" />
+
+        <TextView
+            android:id="@+id/aText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bText"
+            android:textColor="@color/base2"
+            android:text="AT PRICE"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/aText"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:backgroundTint="@color/base2"
+            android:maxLines="1"
+            android:text="1900"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/amText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/price"
+            android:text="AMOUNT | BTC"
+            android:textStyle="bold"
+            android:textColor="@color/base2"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <EditText
+            android:id="@+id/amount"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/amText"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:backgroundTint="@color/base2"
+            android:maxLines="1"
+            android:text="190"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/amount"
+            android:text="TOTAL"
+            android:textColor="@color/base2"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/total"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/tText"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:backgroundTint="@color/base2"
+            android:maxLines="1"
+            android:text="12,000"
+            android:textColor="@color/white" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/sell"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/total"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:backgroundTint="@color/sell"
+            android:text="SELL"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

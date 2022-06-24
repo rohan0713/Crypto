@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "203153418206",
+    "project_id": "myproject-6df3d",
+    "storage_bucket": "myproject-6df3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203153418206:android:49d8634f1648da40e25f4f",
+        "android_client_info": {
+          "package_name": "com.example.crypto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "203153418206-ooccquqa5f80kh0sjfumfnlvkod98c36.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.crypto",
+            "certificate_hash": "b61d67aa4627e02794ed0184ed8c90a14890545b"
+          }
+        },
+        {
+          "client_id": "203153418206-vrj8cr6j1eu7qsilcg7ffn825g9jf9tr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.crypto",
+            "certificate_hash": "7767fb5a00771f577c925829cb8fd54e3ec8ae0f"
+          }
+        },
+        {
+          "client_id": "203153418206-nvqnmsr7tc9otg3c8j7f50ilnqmihdi4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKaEFWFZnIhCzRYPCO9JxC0BHqAimomFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "203153418206-nvqnmsr7tc9otg3c8j7f50ilnqmihdi4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
